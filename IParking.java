@@ -17,7 +17,7 @@ public interface IParking {
 			public int getSmall() {
 				return Integer.parseInt(System.getProperty("small"));
 			}
-			@Override
+			
 			public ArrayList<Integer> getPlanParking() {
 				// TODO Auto-generated method stub
 				return planParking;
